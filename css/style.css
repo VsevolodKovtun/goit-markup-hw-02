@@ -55,7 +55,32 @@ a {
     text-decoration: none;
 }
 
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* HEADER */
+.heder-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts {
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-family: var(--secondary-font);
@@ -65,7 +90,6 @@ a {
     line-height: 1.2;
 
 }
-
 
 .logo-span {
     color: var(--accent-cl)
@@ -83,7 +107,11 @@ a {
 .link:hover,
 .link:focus {
     color: var(--accent-cl)
+    
+}
 
+.link-studio:visited {
+    color: var(--accent-cl);
 }
 
 .link-contact {
@@ -132,6 +160,11 @@ a {
 
 }
 
+.btn:hover,
+.btn:focus {
+    background-color: #188CE8;
+}
+
 /* our benefits */
 .title-benefits {
     font-weight: bold;
@@ -157,10 +190,6 @@ a {
 }
 
 /* our team section */
-.our-team-section {
-    background-color: #E5E5E5;
-
-}
 
 .title-team {
     font-weight: bold;
